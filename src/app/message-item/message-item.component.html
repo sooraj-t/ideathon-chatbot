@@ -1,0 +1,23 @@
+<li class="list-group-item">
+  <div [ngClass]="getUserClass()">
+    <ng-container *ngIf="getEnable(index); else different">
+      <span style="position: relative;right: 13px;">{{message.user}}</span>
+      <img src="{{getImg(index)}}" alt="Avatar" class="avatar" style="
+                vertical-align: middle;width: 35px;height: 35px;border-radius: 50%; ">
+    </ng-container>
+    <ng-template #different>
+
+      <img src="{{getImg(index)}}" alt="Avatar" class="avatar" style="
+                vertical-align: middle;    width: 48px;
+    height: 45px;
+;border-radius: 50%; ">
+      <span style="position: relative;
+      right: -2px;">{{message.user}}</span>
+    </ng-template>
+
+  </div>
+  <div class="message">
+    {{message.content}}
+    {{message.answer}}
+  </div>
+</li>

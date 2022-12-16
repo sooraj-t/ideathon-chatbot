@@ -1,0 +1,42 @@
+.chatcontrol {
+    width: 100%;
+
+}
+
+.chatinput {
+    width: 17%;
+    border-color: transparent;
+    box-shadow: inset 0px 0px 0px 1px transparent;
+    flex: 1;
+    background: #eee;
+    position: relative;
+    left: 45px;
+}
+
+.parDiv img{
+    width: 100%;
+    height: 100%
+}
+.parDiv{
+    height: 88vh;
+    overflow: scroll;
+    overflow-x: hidden;
+    position: relative;
+ }
+
+.chatarea{
+    width: 30%;
+    float: right;
+}
+
+
+.chatcontrol {
+    //height: 80vh;
+    max-height: 80vh;
+    overflow: auto;
+    position: fixed;
+    bottom: 5px;
+}
+
+
+ 

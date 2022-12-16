@@ -1,0 +1,9 @@
+.list-group {
+    //border: solid gray 2px;
+    list-style: none;
+    padding: 5px 10px 5px 10px;
+}
+
+app-message-item:nth-child(odd) {
+    text-align: right
+}

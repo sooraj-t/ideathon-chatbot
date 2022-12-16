@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { Message } from './message';
+import { MessageFormComponent } from './message-form/message-form.component';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +8,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'IdeathonFE';
+title = 'IdeathonFE';
+messages: Message[];
 }

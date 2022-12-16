@@ -1,0 +1,9 @@
+<div>
+  <div class="chatbot-list">
+  
+  
+    <ul class="list-group">
+      <app-message-item *ngFor="let msg of messages;let i = index" [index]="i" [message]="msg" ></app-message-item>
+    </ul>
+  </div>
+</div>

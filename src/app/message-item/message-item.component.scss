@@ -1,0 +1,37 @@
+.list-group-item {
+    border: solid black 1px;
+    margin-bottom: 15px;
+}
+
+.userUser {
+    margin: 10px;
+    //border-bottom: solid red 1px;
+    color: red;
+    font-size: large;
+}
+
+.botUser {
+    margin: 10px;
+   // border-bottom: solid blue 1px;
+    color: blue;
+    font-size: large;
+    
+}
+.avatar{
+    vertical-align: middle;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.message {
+    margin: 0px 10px 5px 10px;
+}
+
+.timestamp {
+    float: right;
+    text-align: right;
+    position: relative;
+    bottom: 12px;
+    font-weight: 600;
+}
